@@ -2,7 +2,20 @@
 
 ## 演習
 
-- 使ったモデル・設定（`result.json` の `config` から）：
+- 使ったモデル・設定（`result.json` の `config` から）："config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "num_train_epochs": 10,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 96,
+    "gen": {
+      "do_sample": false
+    }
 - 自分で学習を実行したか（`executed_training_myself`）：はい（実行できた範囲：　セクション0~8）
 - 学習前：`format_rate` =　0.095 / `content_rate` =　0.0
 - 学習後：`format_rate` =　1.0 / `content_rate` =　0.905
