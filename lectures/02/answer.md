@@ -16,6 +16,7 @@
     "gen": {
       "do_sample": false
     }
+}
 - 自分で学習を実行したか（`executed_training_myself`）：はい（実行できた範囲：　セクション0~8）
 - 学習前：`format_rate` =　0.095 / `content_rate` =　0.0
 - 学習後：`format_rate` =　1.0 / `content_rate` =　0.905
